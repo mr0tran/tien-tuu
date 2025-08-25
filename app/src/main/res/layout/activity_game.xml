@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,47 +9,24 @@
     android:padding="24dp"
     tools:context=".GameActivity">
 
-    <!-- Header with player names -->
-    <LinearLayout
-        android:id="@+id/headerLayout"
+    <!-- Header with dynamic player names -->
+    <HorizontalScrollView
+        android:id="@+id/headerScrollView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:scrollbars="none"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/tvPlayer1Name"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Người chơi 1"
-            android:textColor="@color/primary_color"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/player_background"
-            android:padding="12dp"
-            android:layout_marginEnd="8dp" />
-
-        <TextView
-            android:id="@+id/tvPlayer2Name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Người chơi 2"
-            android:textColor="@color/primary_color"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:background="@drawable/player_background"
-            android:padding="12dp"
-            android:layout_marginStart="8dp" />
-
-    </LinearLayout>
+            android:layout_marginTop="20dp" />
+    </HorizontalScrollView>
 
     <!-- Current Player Indicator -->
     <TextView
@@ -62,7 +40,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/headerLayout" />
+        app:layout_constraintTop_toBottomOf="@id/headerScrollView" />
 
     <!-- Card Display Area -->
     <androidx.cardview.widget.CardView
