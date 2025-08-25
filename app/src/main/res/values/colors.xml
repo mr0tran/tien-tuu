@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Game Colors -->
+    <color name="primary_color">#FF6B35</color>
+    <color name="secondary_color">#4A90E2</color>
+    <color name="accent_color">#FFD700</color>
+    <color name="background_color">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_text">#000000</color>
+    <color name="task_background">#E8F5E8</color>
+    <color name="task_title">#2E7D32</color>
+    <color name="task_text">#1B5E20</color>
+    
+    <!-- Player Colors -->
+    <color name="player1_card">#FFE0B2</color>
+    <color name="player1_text">#E65100</color>
+    <color name="player2_card">#C8E6C9</color>
+    <color name="player2_text">#2E7D32</color>
+    
+    <!-- Winner Colors -->
+    <color name="winner_background">#FFF3E0</color>
+    <color name="winner_text">#E65100</color>
+    
+    <!-- Stats Colors -->
+    <color name="stats_background">#F3E5F5</color>
+    <color name="stats_title">#7B1FA2</color>
+    <color name="stats_text">#4A148C</color>
+</resources>

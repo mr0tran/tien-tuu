@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tien Tuu</string>
+    <string name="game_title">TIEN TUU</string>
+    <string name="enter_player_names">Nhập tên người chơi</string>
+    <string name="start_game">BẮT ĐẦU CHƠI</string>
+    <string name="draw_card">BỐC BÀI</string>
+    <string name="end_game">KẾT THÚC GAME</string>
+    <string name="play_again">CHƠI LẠI</string>
+    <string name="new_game">GAME MỚI</string>
+    <string name="result_title">KẾT QUẢ GAME</string>
+    <string name="winner">NGƯỜI THẮNG CUỘC</string>
+    <string name="game_stats">THỐNG KÊ GAME</string>
+    <string name="total_rounds">Tổng lượt chơi:</string>
+    <string name="total_drinks">Tổng lượt uống:</string>
+</resources>
